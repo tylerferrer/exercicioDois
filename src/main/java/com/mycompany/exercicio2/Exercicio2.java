@@ -17,6 +17,7 @@ public class Exercicio2 {
 		int numero = entrada.nextInt();
 		
 //                Resultado do número digitado
+
 		System.out.print("O número digitado foi: " + numero);
 	}
 }
