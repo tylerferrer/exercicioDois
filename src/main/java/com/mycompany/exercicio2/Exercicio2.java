@@ -9,12 +9,14 @@ import java.util.Scanner;
 public class Exercicio2 {
 
     public static void main(String[] args) {
+//        Scanner
 		Scanner entrada = new Scanner(System.in);
 		
+//                Entrada de dados
                 System.out.println("Digite um número: ");
 		int numero = entrada.nextInt();
 		
-		System.out.print("O número digitado foi: ");
-		System.out.print(numero);
+//                Resultado do número digitado
+		System.out.print("O número digitado foi: " + numero);
 	}
 }
